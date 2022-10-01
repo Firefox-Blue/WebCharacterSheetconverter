@@ -22,7 +22,7 @@
         background-attachment:fixed;
     
         .content {
-            max-width: 500px;
+            max-width: 0px;
             margin: auto;
     }
     }
@@ -73,10 +73,6 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Fox Den D&amp;D</p>
-            </footer>
         </div>
 
     </form>
