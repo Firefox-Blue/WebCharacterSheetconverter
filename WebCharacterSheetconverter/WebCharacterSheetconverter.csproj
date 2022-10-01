@@ -116,6 +116,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Character Sheet.html" />
     <Content Include="Content\foxden background.png" />
+    <Content Include="Content\Parchment.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />

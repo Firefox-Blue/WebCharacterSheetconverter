@@ -846,5 +846,15 @@ namespace WebCharacterSheetconverter
         {
 
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+            Response.ContentType = "text/HTML";
+            Response.AppendHeader("Content-Disposition", "attachment; filename=CharacterSheet.html");
+            Response.TransmitFile(Server.MapPath("~/Content/Character Sheet.html"));
+            Response.End();
+
+        }
     }
 }

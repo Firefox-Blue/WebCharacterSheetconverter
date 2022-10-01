@@ -16,16 +16,28 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <style>
+
     body {
+        
         background-image:url("Content/foxden%20background.png");
+        background-size: cover;
         background-repeat:no-repeat;
         background-attachment:fixed;
-    
-        .content {
-            max-width: 0px;
-            margin: auto;
     }
+
+    #characterConvert {
+
+        background-image:url("Content/Parchment.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+
+
+        margin: auto;
+        width: 30%;
+        padding: 10% 0;
     }
+
     </style>
 
 </head>
