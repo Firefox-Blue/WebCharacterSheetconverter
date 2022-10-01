@@ -15,21 +15,18 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-
-    <!-->
     <style>
     body {
         background-image:url("Content/foxden%20background.png");
         background-repeat:no-repeat;
         background-attachment:fixed;
     
-    .content {
-        max-width: 500px;
-        margin: auto;
-}
+        .content {
+            max-width: 500px;
+            margin: auto;
+    }
     }
     </style>
-        <-->
 
 </head>
 <body>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CharacterSheetConverter.aspx.cs" Inherits="WebCharacterSheetconverter._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebCharacterSheetconverter._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -48,7 +48,7 @@
             </div>
 
             <div class="wrapper">
-            <div class="box">center me!</div>
+            <div class="box"></div>
             </div>
 
         </div>
